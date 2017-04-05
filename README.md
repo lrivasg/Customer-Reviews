@@ -22,3 +22,7 @@ Compatible con Magento 1.9.+
 ### Cómo configurarlo
 
 * [Configuración](https://github.com/lrivasg/Customer-Reviews/wiki/Configuraci%C3%B3n)
+
+## Gestión de reviews en BO
+
+* [Gestión de reviews](https://github.com/lrivasg/Customer-Reviews/wiki/Gesti%C3%B3n-de-Reviews)
