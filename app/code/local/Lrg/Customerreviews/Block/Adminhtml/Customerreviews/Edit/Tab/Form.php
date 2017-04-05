@@ -32,6 +32,21 @@ class Lrg_Customerreviews_Block_Adminhtml_Customerreviews_Edit_Tab_Form extends 
             'name'      => 'review_status',
             'values'    => Mage::getSingleton('customerreviews/reviews')->getStatuses()
         ));
+        $fieldset->addField('rating_delivery', 'text', array(
+            'label'     => Mage::helper('customerreviews')->__('Rating delivery'),
+            'readonly' => true,
+            'name'      => 'rating_delivery',
+        ));
+        $fieldset->addField('rating_product', 'text', array(
+            'label'     => Mage::helper('customerreviews')->__('Rating product'),
+            'readonly' => true,
+            'name'      => 'rating_product',
+        ));
+        $fieldset->addField('rating_customer_support', 'text', array(
+            'label'     => Mage::helper('customerreviews')->__('Rating customer support'),
+            'readonly' => true,
+            'name'      => 'rating_customer_supporty',
+        ));
         
         $fieldset->addField('message', 'editor', array(
             'name'      => 'message',
